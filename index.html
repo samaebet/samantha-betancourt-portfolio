@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Your Name — Undergraduate Student</title>
+  <meta name="description" content="Personal website of Your Name — education, experience, and projects." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300..800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <div class="bg-grid" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="#top" id="top">
+        <span class="brand-dot" aria-hidden="true"></span>
+        <span>Your Name</span>
+      </a>
+
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a class="btn small" href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-left">
+        <p class="pill">Undergraduate • Major/Program • City, State</p>
+        <h1>
+          Hi, I’m <span class="accent">Your Name</span>.<br />
+          I build <span class="soft">thoughtful</span> things.
+        </h1>
+        <p class="lead">
+          I’m an undergraduate student interested in <strong>[your interests]</strong>—from
+          <strong>[topic]</strong> to <strong>[topic]</strong>. Here are my projects, experience, and what I’m learning.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn" href="#projects">View projects</a>
+          <a class="btn ghost" href="./YourName_Resume.pdf" target="_blank" rel="noreferrer">Resume</a>
+        </div>
+
+        <div class="links">
+          <a href="mailto:you@email.com">you@email.com</a>
+          <span class="dot">•</span>
+          <a href="https://www.linkedin.com/in/your-handle" target="_blank" rel="noreferrer">LinkedIn</a>
+          <span class="dot">•</span>
+          <a href="https://github.com/your-handle" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="profile-card">
+          <div class="pfp" role="img" aria-label="Profile image placeholder">
+            <span>YN</span>
+          </div>
+          <div class="profile-meta">
+            <p class="profile-name">Your Name</p>
+            <p class="profile-sub">Undergraduate Student</p>
+            <div class="tag-row">
+              <span class="tag">Dark purple lover</span>
+              <span class="tag">Pastel vibes</span>
+              <span class="tag">Open to internships</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="mini-grid">
+          <div class="mini">
+            <p class="mini-k">Focus</p>
+            <p class="mini-v">[e.g., UI/UX + web dev]</p>
+          </div>
+          <div class="mini">
+            <p class="mini-k">Tools</p>
+            <p class="mini-v">[e.g., Python, React]</p>
+          </div>
+          <div class="mini">
+            <p class="mini-k">Currently</p>
+            <p class="mini-v">[e.g., building a study app]</p>
+          </div>
+          <div class="mini">
+            <p class="mini-k">Fun</p>
+            <p class="mini-v">[e.g., photography]</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="section-head">
+        <h2>About</h2>
+        <p>A quick overview of who I am and what I care about.</p>
+      </div>
+
+      <div class="card">
+        <p>
+          I’m a <strong>[year]</strong> undergraduate at <strong>[University]</strong> studying <strong>[Major]</strong>.
+          I’m especially interested in <strong>[interest area]</strong> and love projects that mix
+          <strong>creativity</strong> + <strong>problem-solving</strong>.
+        </p>
+        <p>
+          Lately, I’ve been learning <strong>[topic]</strong> and working on <strong>[project type]</strong>.
+          I’m looking for opportunities in <strong>[internship/role interests]</strong>.
+        </p>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="section" id="education">
+      <div class="section-head">
+        <h2>Education</h2>
+        <p>School, coursework, and highlights.</p>
+      </div>
+
+      <div class="grid-2">
+        <article class="card">
+          <h3>[University Name]</h3>
+          <p class="muted">[Degree] • [Major/Minor] • [Grad date]</p>
+          <ul class="bullets">
+            <li><strong>GPA:</strong> [optional]</li>
+            <li><strong>Relevant coursework:</strong> [Course 1], [Course 2], [Course 3]</li>
+            <li><strong>Involvement:</strong> [Club/Org], [Leadership]</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3>Highlights</h3>
+          <ul class="bullets">
+            <li>[Scholarship / award / honor]</li>
+            <li>[Research / lab / program]</li>
+            <li>[Teaching assistant / tutor / mentor]</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section" id="experience">
+      <div class="section-head">
+        <h2>Experience</h2>
+        <p>Roles that shaped my skills.</p>
+      </div>
+
+      <div class="stack">
+        <article class="card">
+          <div class="row">
+            <h3>[Role Title] — [Company/Org]</h3>
+            <p class="muted">[Dates] • [Location/Remote]</p>
+          </div>
+          <ul class="bullets">
+            <li>Did <strong>[impactful thing]</strong>, resulting in <strong>[measurable outcome]</strong>.</li>
+            <li>Built/Improved <strong>[system/process]</strong> using <strong>[tools]</strong>.</li>
+            <li>Collaborated with <strong>[who]</strong> to <strong>[result]</strong>.</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <div class="row">
+            <h3>[Role Title] — [Company/Org]</h3>
+            <p class="muted">[Dates] • [Location/Remote]</p>
+          </div>
+          <ul class="bullets">
+            <li>Led <strong>[project]</strong> and delivered <strong>[result]</strong>.</li>
+            <li>Learned <strong>[skill]</strong> and applied it to <strong>[outcome]</strong>.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+      <div class="section-head">
+        <h2>Projects</h2>
+        <p>A few things I’ve built—clean, practical, and a little fun.</p>
+      </div>
+
+      <div class="projects">
+        <article class="project">
+          <div class="project-top">
+            <h3>[Project One]</h3>
+            <span class="chip">Featured</span>
+          </div>
+          <p class="muted">
+            One-line description: what it does + why it matters.
+          </p>
+          <ul class="bullets">
+            <li><strong>What I did:</strong> [key contribution]</li>
+            <li><strong>Tech:</strong> [tools/stack]</li>
+            <li><strong>Outcome:</strong> [metric / what you learned]</li>
+          </ul>
+          <div class="project-links">
+            <a class="btn small" href="#" target="_blank" rel="noreferrer">Live demo</a>
+            <a class="btn small ghost" href="#" target="_blank" rel="noreferrer">Source</a>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-top">
+            <h3>[Project Two]</h3>
+            <span class="chip soft">Pastel</span>
+          </div>
+          <p class="muted">One-line description: problem → solution.</p>
+          <ul class="bullets">
+            <li><strong>Focus:</strong> [e.g., accessibility, performance]</li>
+            <li><strong>Tech:</strong> [tools/stack]</li>
+          </ul>
+          <div class="project-links">
+            <a class="btn small ghost" href="#" target="_blank" rel="noreferrer">Read more</a>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-top">
+            <h3>[Project Three]</h3>
+            <span class="chip mint">Spring</span>
+          </div>
+          <p class="muted">One-line description.</p>
+          <ul class="bullets">
+            <li><strong>Impact:</strong> [who it helped / what improved]</li>
+            <li><strong>Tech:</strong> [tools/stack]</li>
+          </ul>
+          <div class="project-links">
+            <a class="btn small ghost" href="#" target="_blank" rel="noreferrer">Source</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <div class="section-head">
+        <h2>Contact</h2>
+        <p>Want to connect? I’d love to hear from you.</p>
+      </div>
+
+      <div class="card contact-card">
+        <div>
+          <p class="muted">Email</p>
+          <p><a href="mailto:you@email.com">you@email.com</a></p>
+        </div>
+        <div>
+          <p class="muted">Links</p>
+          <p>
+            <a href="https://www.linkedin.com/in/your-handle" target="_blank" rel="noreferrer">LinkedIn</a>
+            <span class="dot">•</span>
+            <a href="https://github.com/your-handle" target="_blank" rel="noreferrer">GitHub</a>
+          </p>
+        </div>
+        <div class="contact-cta">
+          <a class="btn" href="mailto:you@email.com">Send an email</a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p class="muted">© <span id="year"></span> Your Name • Built with love for dark purple + soft grids</p>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+
+<link rel="stylesheet" href="./styles.css" />
