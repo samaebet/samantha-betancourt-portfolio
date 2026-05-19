@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Experience | Samantha Betancourt</title>
+  <meta name="description" content="Experience of Samantha Betancourt." />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <div class="bg-grid" aria-hidden="true"></div>
+
+  <main class="container">
+    <header>
+      <div class="topline">
+        <div>
+          <p class="name">Experience</p>
+          <p class="meta">Samantha Betancourt</p>
+        </div>
+      </div>
+
+      <nav class="nav" aria-label="Primary">
+        <a href="./index.html">Home</a>
+        <a href="./projects.html">Projects</a>
+        <a href="./leadership.html">Leadership</a>
+        <a href="./SamanthaBetancourt_Resume.pdf">Resume (PDF)</a>
+      </nav>
+
+      <hr>
+    </header>
+
+    <section class="section">
+      <div class="block">
+        <p class="h2">New Jersey Courts</p>
+
+        <div class="item">
+          <p class="item-title">Cybersecurity Engineering Intern</p>
+          <p class="item-sub">Jan 2026 to Present, Trenton, NJ</p>
+          <ul class="list">
+            <li>Defining an AI governance roadmap, synthesizing 5+ industry frameworks and judicial regulations into a set of security requirements.</li>
+            <li>Mapping emerging AI use cases to NIST CSF 2.0 and ISO 27001 to support state wide judicial implementation.</li>
+            <li>Strengthening security posture by conducting OSINT and converting raw threat intelligence into actionable insights.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="block">
+        <p class="h2">Hopewell Valley Regional School District</p>
+
+        <div class="item">
+          <p class="item-title">Technology Intern</p>
+          <p class="item-sub">Nov 2025 to Dec 2025, Pennington, NJ</p>
+          <ul class="list">
+            <li>Partnered with the Technology team to triage and prioritize hardware and software issues, improving response times and user satisfaction.</li>
+            <li>Delivered Chromebook support for users and standardized service workflows to maximize device availability and uptime.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="block">
+        <p class="h2">Best Buy</p>
+
+        <div class="item">
+          <p class="item-title">Technical Advisor</p>
+          <p class="item-sub">May 2024 to Nov 2025, Princeton, NJ</p>
+          <ul class="list">
+            <li>Resolved 1.6k technical cases by translating client issues into clear documentation of requirements, expectations, and user notes.</li>
+            <li>Coordinated communication between clients and technical repair teams via CRM, streamlining handoffs and turnaround times.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="block">
+        <p class="h2">Chubb</p>
+
+        <div class="item">
+          <p class="item-title">Risk Consulting Technical Operations Intern</p>
+          <p class="item-sub">Jun 2025 to Jul 2025, Whitehouse Station, NJ</p>
+          <ul class="list">
+            <li>Deployed a performance monitoring dashboard through two feedback and development cycles to balance data clarity with user experience.</li>
+            <li>Analyzed replacement cost trends across 12 US states within 1B+ client portfolios, cutting claim process time by 78%.</li>
+            <li>Influenced product investment planning by leading a market analysis of 10 AI workflow automation solutions using customer testimonials.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p><a href="./index.html">Back to Home</a></p>
+      <p>© <span id="year"></span> Samantha Betancourt</p>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
