@@ -1,279 +1,33 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Samantha Betancourt — Undergraduate Student</title>
-  <meta name="description" content="Personal website of Your Name — education, experience, and projects." />
+<div class="block" aria-label="Profile">
+  <svg width="220" height="160" viewBox="0 0 220 160" role="img" aria-label="Stick figure avatar">
+    <!-- background tint, very subtle -->
+    <rect x="0" y="0" width="220" height="160" rx="14" fill="#ffffff" opacity="0.75"></rect>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300..800&display=swap" rel="stylesheet">
+    <!-- head -->
+    <circle cx="110" cy="52" r="22" fill="#fbfbfb" stroke="rgba(20,19,26,0.35)" stroke-width="2"></circle>
 
-  <link rel="stylesheet" href="./styles.css" />
-</head>
+    <!-- hair (dark brown) -->
+    <path d="M88 52c2-16 14-26 22-26s20 10 22 26c-10-9-14-10-22-10s-12 1-22 10z"
+          fill="#3b2a20" opacity="0.95"></path>
 
-<body>
-  <div class="bg-grid" aria-hidden="true"></div>
+    <!-- small flower -->
+    <circle cx="128" cy="34" r="3.2" fill="#c8b2ce"></circle>
+    <circle cx="132" cy="37" r="3.2" fill="#e5d1d1"></circle>
+    <circle cx="125" cy="39" r="3.2" fill="#d5c472"></circle>
+    <circle cx="129" cy="40" r="2.1" fill="#2a5654"></circle>
 
-  <header class="site-header">
-    <nav class="nav">
-      <a class="brand" href="#top" id="top">
-        <span class="brand-dot" aria-hidden="true"></span>
-        <span>Your Name</span>
-      </a>
+    <!-- body -->
+    <line x1="110" y1="74" x2="110" y2="120" stroke="rgba(20,19,26,0.55)" stroke-width="2.5" stroke-linecap="round"></line>
 
-      <div class="nav-links">
-        <a href="#about">About</a>
-        <a href="#education">Education</a>
-        <a href="#experience">Experience</a>
-        <a href="#projects">Projects</a>
-        <a class="btn small" href="#contact">Contact</a>
-      </div>
-    </nav>
-  </header>
+    <!-- arms -->
+    <line x1="86" y1="92" x2="134" y2="92" stroke="rgba(20,19,26,0.55)" stroke-width="2.5" stroke-linecap="round"></line>
 
-  <main class="container">
-    <!-- HERO -->
-    <section class="hero">
-      <div class="hero-left">
-        <p class="pill">Undergraduate • IT Management and Cybersecurity • Hopewell, NJ</p>
-        <h1>
-          Hi, I’m <span class="accent">Samantha Betancourt</span>.<br />
-          I build <span class="soft">thoughtful</span> things.
-        </h1>
-        <p class="lead">
-          I’m an undergraduate student interested in <strong>[cybersecurity]</strong>—from
-          <strong>[security automation]</strong> to <strong>[product security]</strong>. Here are my projects, experience, and what I’m learning.
-        </p>
+    <!-- legs -->
+    <line x1="110" y1="120" x2="92" y2="148" stroke="rgba(20,19,26,0.55)" stroke-width="2.5" stroke-linecap="round"></line>
+    <line x1="110" y1="120" x2="128" y2="148" stroke="rgba(20,19,26,0.55)" stroke-width="2.5" stroke-linecap="round"></line>
+  </svg>
 
-        <div class="hero-actions">
-          <a class="btn" href="#projects">View projects</a>
-          <a class="btn ghost" href="./YourName_Resume.pdf" target="_blank" rel="noreferrer">Resume</a>
-        </div>
-
-        <div class="links">
-          <a href="mailto:you@email.com">samaebet@gmail.com</a>
-          <span class="dot">•</span>
-          <a href="https://www.linkedin.com/in/samanthazbetancourt" target="_blank" rel="noreferrer">LinkedIn</a>
-          <span class="dot">•</span>
-          <a href="https://github.com/samaebet" target="_blank" rel="noreferrer">GitHub</a>
-        </div>
-      </div>
-
-      <div class="hero-right">
-        <div class="profile-card">
-          <div class="pfp" role="img" aria-label="Profile image placeholder">
-            <span>SB</span>
-          </div>
-          <div class="profile-meta">
-            <p class="profile-name">Samantha Betancourt</p>
-            <p class="profile-sub">IT Management and Cybersecurity Student</p>
-            <div class="tag-row">
-              <span class="tag">Dark purple lover</span>
-              <span class="tag">Pastel vibes</span>
-              <span class="tag">Open to internships</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="mini-grid">
-          <div class="mini">
-            <p class="mini-k">Focus</p>
-            <p class="mini-v">[e.g., Security]</p>
-          </div>
-          <div class="mini">
-            <p class="mini-k">Tools</p>
-            <p class="mini-v">[e.g., Python, Java]</p>
-          </div>
-          <div class="mini">
-            <p class="mini-k">Currently</p>
-            <p class="mini-v">[e.g., completing ML coursework by break through tech's AI program]</p>
-          </div>
-          <div class="mini">
-            <p class="mini-k">Fun</p>
-            <p class="mini-v">[e.g., gym]</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ABOUT -->
-    <section class="section" id="about">
-      <div class="section-head">
-        <h2>About</h2>
-        <p>A quick overview of who I am and what I care about.</p>
-      </div>
-
-      <div class="card">
-        <p>
-          I’m a <strong>[4th year]</strong> undergraduate at <strong>[Rider University]</strong> studying <strong>[IT Management]</strong>.
-          I’m especially interested in <strong>[cybersecurity]</strong> and love projects that mix
-          <strong>creativity</strong> + <strong>problem-solving</strong>.
-        </p>
-        <p>
-          Lately, I’ve been learning <strong>[topic]</strong> and working on <strong>[building a key logger]</strong>.
-          I’m looking for opportunities in <strong>[internship/role interests]</strong>.
-        </p>
-      </div>
-    </section>
-
-    <!-- EDUCATION -->
-    <section class="section" id="education">
-      <div class="section-head">
-        <h2>Education</h2>
-        <p>School, coursework, and highlights.</p>
-      </div>
-
-      <div class="grid-2">
-        <article class="card">
-          <h3>[Rider University]</h3>
-          <p class="muted">[B.S.B.A] • [IT Management major, Cybersecurity minor] • [May 2027]</p>
-          <ul class="bullets">
-            <li><strong>GPA:</strong> [3.88]</li>
-            <li><strong>Relevant coursework:</strong> [Intro to Python], [Algorithms & Programming (Java)], [Network Defenses and Countermeasures]</li>
-            <li><strong>Involvement:</strong> [WiCyS Student Chapter], [Rewriting The Code]</li>
-          </ul>
-        </article>
-
-        <article class="card">
-          <h3>Highlights</h3>
-          <ul class="bullets">
-            <li>[Student Commencement Speaker]</li>
-            <li>[WiCyS Student Scholarship '26, '27]</li>
-            <li>[Dean's List (all semesters)]</li>
-          </ul>
-        </article>
-      </div>
-    </section>
-
-    <!-- EXPERIENCE -->
-    <section class="section" id="experience">
-      <div class="section-head">
-        <h2>Experience</h2>
-        <p>Roles that shaped my skills.</p>
-      </div>
-
-      <div class="stack">
-        <article class="card">
-          <div class="row">
-            <h3>[Cybersecurity Engineering intern] — [New Jersey Courts]</h3>
-            <p class="muted">[Jan 2026 - Present] • [Trenton, NJ]</p>
-          </div>
-          <ul class="bullets">
-            <li>Did <strong>[impactful thing]</strong>, resulting in <strong>[measurable outcome]</strong>.</li>
-            <li>Built/Improved <strong>[system/process]</strong> using <strong>[tools]</strong>.</li>
-            <li>Collaborated with <strong>[who]</strong> to <strong>[result]</strong>.</li>
-          </ul>
-        </article>
-
-        <article class="card">
-          <div class="row">
-            <h3>[Role Title] — [Company/Org]</h3>
-            <p class="muted">[Dates] • [Location/Remote]</p>
-          </div>
-          <ul class="bullets">
-            <li>Led <strong>[project]</strong> and delivered <strong>[result]</strong>.</li>
-            <li>Learned <strong>[skill]</strong> and applied it to <strong>[outcome]</strong>.</li>
-          </ul>
-        </article>
-      </div>
-    </section>
-
-    <!-- PROJECTS -->
-    <section class="section" id="projects">
-      <div class="section-head">
-        <h2>Projects</h2>
-        <p>A few things I’ve built—clean, practical, and a little fun.</p>
-      </div>
-
-      <div class="projects">
-        <article class="project">
-          <div class="project-top">
-            <h3>[Project One]</h3>
-            <span class="chip">Featured</span>
-          </div>
-          <p class="muted">
-            One-line description: what it does + why it matters.
-          </p>
-          <ul class="bullets">
-            <li><strong>What I did:</strong> [key contribution]</li>
-            <li><strong>Tech:</strong> [tools/stack]</li>
-            <li><strong>Outcome:</strong> [metric / what you learned]</li>
-          </ul>
-          <div class="project-links">
-            <a class="btn small" href="#" target="_blank" rel="noreferrer">Live demo</a>
-            <a class="btn small ghost" href="#" target="_blank" rel="noreferrer">Source</a>
-          </div>
-        </article>
-
-        <article class="project">
-          <div class="project-top">
-            <h3>[Project Two]</h3>
-            <span class="chip soft">Pastel</span>
-          </div>
-          <p class="muted">One-line description: problem → solution.</p>
-          <ul class="bullets">
-            <li><strong>Focus:</strong> [e.g., accessibility, performance]</li>
-            <li><strong>Tech:</strong> [tools/stack]</li>
-          </ul>
-          <div class="project-links">
-            <a class="btn small ghost" href="#" target="_blank" rel="noreferrer">Read more</a>
-          </div>
-        </article>
-
-        <article class="project">
-          <div class="project-top">
-            <h3>[Project Three]</h3>
-            <span class="chip mint">Spring</span>
-          </div>
-          <p class="muted">One-line description.</p>
-          <ul class="bullets">
-            <li><strong>Impact:</strong> [who it helped / what improved]</li>
-            <li><strong>Tech:</strong> [tools/stack]</li>
-          </ul>
-          <div class="project-links">
-            <a class="btn small ghost" href="#" target="_blank" rel="noreferrer">Source</a>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <!-- CONTACT -->
-    <section class="section" id="contact">
-      <div class="section-head">
-        <h2>Contact</h2>
-        <p>Want to connect? I’d love to hear from you.</p>
-      </div>
-
-      <div class="card contact-card">
-        <div>
-          <p class="muted">Email</p>
-          <p><a href="mailto:you@email.com">you@email.com</a></p>
-        </div>
-        <div>
-          <p class="muted">Links</p>
-          <p>
-            <a href="https://www.linkedin.com/in/your-handle" target="_blank" rel="noreferrer">LinkedIn</a>
-            <span class="dot">•</span>
-            <a href="https://github.com/your-handle" target="_blank" rel="noreferrer">GitHub</a>
-          </p>
-        </div>
-        <div class="contact-cta">
-          <a class="btn" href="mailto:you@email.com">Send an email</a>
-        </div>
-      </div>
-    </section>
-
-    <footer class="footer">
-      <p class="muted">© <span id="year"></span> Your Name • Built with love for dark purple + soft grids</p>
-    </footer>
-  </main>
-
-  <script>
-    document.getElementById("year").textContent = new Date().getFullYear();
-  </script>
-</body>
-</html>
-
-<link rel="stylesheet" href="./styles.css" />
+  <p class="small" style="margin-top:10px;">
+    Calm, minimal, and focused on impact.
+  </p>
+</div>
