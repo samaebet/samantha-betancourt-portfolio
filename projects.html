@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Projects | Samantha Betancourt</title>
+  <meta name="description" content="Projects of Samantha Betancourt." />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <div class="bg-grid" aria-hidden="true"></div>
+
+  <main class="container">
+    <header>
+      <div class="topline">
+        <div>
+          <p class="name">Projects</p>
+          <p class="meta">Samantha Betancourt</p>
+        </div>
+      </div>
+
+      <nav class="nav" aria-label="Primary">
+        <a href="./index.html">Home</a>
+        <a href="./experience.html">Experience</a>
+        <a href="./leadership.html">Leadership</a>
+        <a href="./SamanthaBetancourt_Resume.pdf">Resume (PDF)</a>
+      </nav>
+
+      <hr>
+    </header>
+
+    <section class="section">
+      <div class="block">
+        <p class="h2">Depop Case Study</p>
+
+        <div class="item">
+          <p class="item-title">Depop Case Study</p>
+          <p class="item-sub">Feb 2026 to Apr 2026</p>
+          <p class="small">Agile, Google Forms, Google Sheets, Notion, user research and interviewing</p>
+          <ul class="list">
+            <li>Validated a feed staleness hypothesis through user research with 14 Depop users.</li>
+            <li>Found 93% would use a manual shuffle feature, 64% frequently leave due to content exhaustion, and 86% want increased content control.</li>
+            <li>Architected a PRD for a gestural refresh mechanism, including backend logic to rotate interest categories.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="block">
+        <p class="h2">AI and Machine Learning in Network Security</p>
+
+        <div class="item">
+          <p class="item-title">AI IDS with Autoencoder</p>
+          <p class="item-sub">Jan 2026 to Present</p>
+          <p class="small">Python, Scapy, Wireshark</p>
+          <ul class="list">
+            <li>Collaborated on an AI intrusion detection approach using an autoencoder neural network to identify anomalies and classify malicious activity.</li>
+            <li>Evaluated performance against approximately 1.1k packets of captured traffic, identifying 28 true positive attacks with zero false negatives.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p><a href="./index.html">Back to Home</a></p>
+      <p>© <span id="year"></span> Samantha Betancourt</p>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
