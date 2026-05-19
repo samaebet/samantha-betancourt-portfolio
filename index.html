@@ -16,6 +16,7 @@
       <div class="topline">
         <div>
           <p class="name">Samantha Betancourt</p>
+          <div class="name-underline"></div>
           <p class="meta">
             Rider University, B.S.B.A. IT Management, Cybersecurity minor<br>
             Expected May 2027, GPA 3.79, U.S. Citizen, Hopewell, NJ
@@ -25,40 +26,64 @@
           </p>
         </div>
 
-        <div class="block" aria-label="Profile">
-          <svg width="220" height="160" viewBox="0 0 220 160" role="img" aria-label="Minimal avatar illustration">
-  <rect x="0" y="0" width="220" height="160" rx="14" fill="#ffffff" opacity="0.78"></rect>
+        <div class="block tile-gingham" aria-label="Profile">
+          <svg width="220" height="160" viewBox="0 0 220 160" role="img" aria-label="Avatar sticker badge with tulip">
+            <!-- sticker card -->
+            <rect x="0" y="0" width="220" height="160" rx="18" fill="rgba(255,255,255,0.78)"></rect>
 
-  <!-- soft blobs (palette) -->
-  <circle cx="52" cy="34" r="30" fill="#c8b2ce" opacity="0.25"></circle>
-  <circle cx="182" cy="38" r="26" fill="#99bdc1" opacity="0.22"></circle>
-  <circle cx="168" cy="130" r="30" fill="#e5d1d1" opacity="0.22"></circle>
-  <circle cx="60" cy="132" r="22" fill="#d5c472" opacity="0.18"></circle>
+            <!-- soft sticker blobs (palette) -->
+            <circle cx="48" cy="38" r="28" fill="#c8b2ce" opacity="0.55"></circle>
+            <circle cx="186" cy="42" r="24" fill="#99bdc1" opacity="0.55"></circle>
+            <circle cx="170" cy="130" r="30" fill="#e5d1d1" opacity="0.55"></circle>
+            <circle cx="58" cy="132" r="22" fill="#d5c472" opacity="0.45"></circle>
 
-  <!-- head outline -->
-  <circle cx="110" cy="60" r="22" fill="#fbfbfb" stroke="rgba(20,19,26,0.42)" stroke-width="2"></circle>
+           <!-- badge ring -->
+            <circle cx="110" cy="78" r="44" fill="#fbfaf7" stroke="rgba(20,19,26,0.18)" stroke-width="2"></circle>
+            <circle cx="110" cy="78" r="41" fill="url(#badgeWash)"></circle>
 
-  <!-- hair (dark brown), a simple side part -->
-  <path d="M91 60c1-16 12-28 19-28 11 0 22 10 22 26 0 0-6-8-20-8-10 0-21 10-21 10z"
-        fill="#3b2a20" opacity="0.96"></path>
-  <path d="M118 37c8 2 14 8 15 15 0 0-4-5-11-7-5-2-8-1-8-1s2-5 4-7z"
-        fill="#3b2a20" opacity="0.96"></path>
+            <!-- head -->
+            <circle cx="110" cy="72" r="16" fill="#fbfaf7" stroke="rgba(20,19,26,0.30)" stroke-width="2"></circle>
 
-  <!-- flower in hair -->
-  <g transform="translate(132 45)">
-    <circle cx="0" cy="0" r="3.2" fill="#c8b2ce"></circle>
-    <circle cx="4" cy="2.5" r="3.2" fill="#e5d1d1"></circle>
-    <circle cx="-3.5" cy="3.5" r="3.2" fill="#d5c472"></circle>
-    <circle cx="0.8" cy="4" r="2.1" fill="#2a5654"></circle>
-  </g>
+            <!-- hair (dark brown), simple cute shape -->
+            <path d="M94 72c1-14 11-22 16-22 11 0 22 9 22 22
+                     0 0-6-8-22-8-11 0-16 8-16 8z"
+                  fill="#3b2a20" opacity="0.98"></path>
+            <path d="M122 56c6 2 11 7 12 12 0 0-3-4-9-6-4-1-7-1-7-1s1-3 4-5z"
+                  fill="#3b2a20" opacity="0.98"></path>
 
-  <!-- body (simple, clean lines) -->
-  <path d="M110 82v36" stroke="rgba(20,19,26,0.55)" stroke-width="2.6" stroke-linecap="round"></path>
-  <path d="M90 96h40" stroke="rgba(20,19,26,0.55)" stroke-width="2.6" stroke-linecap="round"></path>
-  <path d="M110 118l-16 26" stroke="rgba(20,19,26,0.55)" stroke-width="2.6" stroke-linecap="round"></path>
-  <path d="M110 118l16 26" stroke="rgba(20,19,26,0.55)" stroke-width="2.6" stroke-linecap="round"></path>
-</svg>
-          <p class="small" style="margin-top:10px;">
+            <!-- shoulders -->
+            <path d="M88 116c8-18 20-24 22-24s14 6 22 24" fill="none"
+                  stroke="rgba(20,19,26,0.40)" stroke-width="2.4" stroke-linecap="round"></path>
+
+            <!-- tulip sticker (top-right of badge) -->
+            <g transform="translate(144 42)">
+            <!-- small white outline like a sticker -->
+              <path d="M20 6c-4-6-12-6-16 0c-4 6-1 14 8 18c9-4 12-12 8-18z"
+                    fill="rgba(255,255,255,0.92)"></path>
+
+              <!-- tulip petals -->
+              <path d="M20 7c-3-5-9-5-12 0c-3 5-1 11 6 14c7-3 9-9 6-14z"
+                    fill="#771c31" opacity="0.95"></path>
+              <path d="M14 9c-2 3-1 7 2 10" fill="none" stroke="rgba(255,255,255,0.55)" stroke-width="1.4"
+                    stroke-linecap="round"></path>
+
+              <!-- stem -->
+              <path d="M14 22c0 8-2 14-6 20" fill="none" stroke="#2a5654" stroke-width="2.2"
+                    stroke-linecap="round"></path>
+              <!-- leaf -->
+              <path d="M10 34c6-1 9 2 10 6c-6 1-10-2-10-6z"
+                    fill="#8a9445" opacity="0.9"></path>
+            </g>
+
+            <defs>
+              <radialGradient id="badgeWash" cx="30%" cy="20%" r="80%">
+                <stop offset="0%" stop-color="#c8b2ce" stop-opacity="0.45" />
+                <stop offset="45%" stop-color="#99bdc1" stop-opacity="0.30" />
+                <stop offset="100%" stop-color="#dbe0e6" stop-opacity="0.15" />
+              </radialGradient>
+            </defs>
+          </svg>
+          <p class="small" style="margin-top:10px;"> ... </p>
             Email: <a href="mailto:samaebet@gmail.com">samaebet@gmail.com</a><br>
             LinkedIn: <a href="#" aria-label="LinkedIn">https://www.linkedin.com/in/samanthazbetancourt/</a>
           </p>
@@ -81,7 +106,7 @@
       </p>
 
       <div class="grid">
-        <div class="block">
+        <div class="block tile-lemon">
           <p class="h2">Highlights</p>
 
           <div class="item">
@@ -100,7 +125,7 @@
           </div>
         </div>
 
-        <div class="block">
+        <div class="block tile-clogs">
           <p class="h2">Focus areas</p>
           <ul class="list">
             <li>Security requirements and governance</li>
